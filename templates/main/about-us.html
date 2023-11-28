@@ -1,0 +1,287 @@
+{% extends 'main/base.html' %}
+{% load static %}
+{% block title %}About Us{% endblock title %}
+{% block main-content %}
+
+<!-- ----------------------- main banner -----------------------  -->
+<section>
+    <div class="card fashion-card text-white">
+        <img src="/static/assets/images/about us banner.jpg" class="card-img" alt="...">
+        <div class="card-img-overlay fashion-overlay">
+
+            <div>
+                <h5 class="fashion-title">ABOUT US</h5>
+            </div>
+
+            <div class="d-flex card_links">
+                <a href="{% url 'home'%}" class="fashion-link">HOME <span>/</span> </a>
+
+                <h6 class="fashion-sub-title">ABOUT US </h6>
+            </div>
+        </div>
+</section>
+
+
+<!-- ----------------------- main banner end-----------------------  -->
+
+
+<!-- ------------------ introduction ------------------ -->
+<section class="about-section">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-5 p-0">
+                <div class="institute-image">
+                    <img src="{% static '/assets/images/ISDT-infrastructure.jpg'%}" alt="">
+                </div>
+            </div>
+            <div class="col-md-7">
+                <div class="institution-information">
+                    <h3>MATOSHRI INTERIOR</h3>
+                    <p>This is a highly unusual course at the cutting edge of one of
+                        Ahmednagar's fastest growing areas of design practice. This also tends
+                        with an every increasing range of employment opportunities in the field.</p>
+
+                    <p>Institute for studies in Design and Technology (ISDT) is the only institution in the district
+                        which is affiliated to SNDT Women's University Mumbai (NAAC five star Accreditation) ISDT is
+                        having own and beautiful building at the heart of city. The Institute believes in offering
+                        programmes of study in the design discipline. This encourages the students to attain higher
+                        standards of education.</p>
+
+                    <p>The teaching team includes dedicated and full time Architects, Interior Designers, Engineers,
+                        with additional industry guest speakers, practicing Designers and Professionals. This help
+                        students to get the Professional knowledge and Training. Special stress also given towards the
+                        way, procedure and proper execution of site with proper presentation of drawings.</p>
+
+                    <p>You will work in specialist design and drawing studios with access to industry standard design
+                        softwares like AutoCAD, 3D Studio Max design, Revit etc. We are proud to mention that we are
+                        taking the optimum educational efforts and train the students for bright future. This diploma
+                        could lead you to a better job, better pay, higher promotion or your own business.</p>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<section class="tabs">
+    <div class="container">
+        <!-- <h3 class="head patron m-0">Patrons</h3> -->
+        <nav id="tab_nav">
+            <div class="nav nav-tabs justify-content-center border-0" id="nav-tab" role="tablist">
+                <button class="nav-link link active border-0 " id="nav-home-tab" data-bs-toggle="tab"
+                    data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home"
+                    aria-selected="true">Founder</button>
+                <!-- <button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile"
+                    type="button" role="tab" aria-controls="nav-profile" aria-selected="false">Director</button>
+                <button class="nav-link" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact"
+                    type="button" role="tab" aria-controls="nav-contact" aria-selected="false">Priciple</button> -->
+            </div>
+        </nav>
+        <div class="row">
+            <div class="col-md">
+                <div class="tab-content border-0" id="nav-tabContent">
+                    <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+                        <div id="tab_nav_pills">
+                            <div class="about_tab">
+                                <img src="" alt="" class="about-navpill">
+                            </div>
+                            <div class="">
+                                <h2 class="">Ar.Siddhart Kishor Bhagat</h2>
+
+                                <p>With a boundless passion for design and a love for creating exceptional spaces, Siddhart Kishor Bhagat is a highly regarded interior designer renowned for turning design dreams into living realities. A visionary at heart and a perfectionist by nature, Siddhart Kishor Bhagat approaches every project with a commitment to excellence, an eye for aesthetics, and a deep understanding of the intricate dance between functionality and style.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+                        <div id="tab_nav_pills">
+                            <div class="">
+                                <img src="" alt="" class="about-navpill">
+                            </div>
+
+                            <div class="tab_main">
+
+                                <h4 class="">Vinayak Deshmukh</h4>
+                                <span> Director's Desk</span>
+                                <p>Dear students,
+                                    1 congratulate you for taking right decision & selecting right career for taking admission in reputed institute - ISDT.
+                                    ISDT is one of the leading Designing Institute in Ahmednagar District. ISDT offers different courses like Diploma in Fashion, Textile & Interior Designing.
+                                    Institute for studies in Design and Technology established in 2004, been a pioneer in design field of education in Ahmednagar. The Institute has a high standing results from Last 18 years for excellency in education in University.
+                                    ISDT offers a fully accredited program recognized for the outstanding quality of it's faculty and students, commitment to outreach and community involvement and facilities. Students focus on concentrations in design & technology, theory and practice. As the Institute stresses the Importance of 'Making' and
+                                    'Creating' in addition to thinking, computers, Laboratories, design-build studios are all equipped with the latest high performance equipment's to enable students to explore and embody their design ideas.
+                                    Through interactions with faculties, industry consultants, government officials and other working professionals, our students become aware of the demand and the pace of the modern work place.
+                                    Finally, I assure you best quality education with best compliments.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
+                        <div id="tab_nav_pills">
+                            <div class="about_tab">
+                                <img src="" alt="" class="about-navpill">
+                            </div>
+                            <div class="tab_main">
+                                <h2 class=""></h2>
+                                <p></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- ------------------------ features ------------------  -->
+<section class="features">
+    <div class="container">
+        <div class="student-work">
+            <h5 class="feature-head">Features Of Matoshri Interior</h5>
+            <div class="line course-line why-line"></div>
+            <p class="feature-para">Our Commitment to equality by every person who is a part of the team has
+                succeeded our aims for the <br> Institute. Each one is taking their responsibility at personal &
+                professional level.</p>
+        </div>
+
+        <div class="row">
+            <div class="col-md-4">
+                <div class="choose-info about-us-features">
+                    <div class="icons features-icons">
+                        <i class="fa fa-pen-ruler"></i>
+                    </div>
+                    <div class="expert-card">
+                        <h2 class="icons-head"> Creativity</h2>
+                        <p>Creative garments prepared by our students.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-md-4">
+                <div class="choose-info about-us-features">
+                    <div class="icons features-icons">
+                        <i class="fa-solid fa-gears"></i>
+                    </div>
+                    <div class="expert-card">
+                        <h2 class="icons-head"> Global Collaboration</h2>
+                        <p>Collaborative projects events and workshops
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-md-4">
+                <div class="choose-info about-us-features">
+                    <div class="icons features-icons">
+                        <i class="fa fa-pen-ruler"></i>
+                    </div>
+                    <div class="expert-card">
+                        <h2 class="icons-head"> Well Equipped Classrooms</h2>
+                        <p>Classrooms are equipped with good facilities
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="col-md-4">
+                <div class="choose-info about-us-features">
+                    <div class="icons features-icons">
+                        <i class="fa fa-pen-ruler"></i>
+                    </div>
+                    <div class="expert-card">
+                        <h2 class="icons-head">Skill Based Training</h2>
+                        <p class="m-0">Lead the skill-based knowledge in Fashion Design.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="col-md-4">
+                <div class="choose-info about-us-features">
+                    <div class="icons features-icons">
+                        <i class="fa-solid fa-briefcase"></i>
+                    </div>
+                    <div class="expert-card">
+                        <h2 class="icons-head">Global Events</h2>
+                        <p class="m-0">We offer a varied range of programs
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-md-4">
+                <div class="choose-info about-us-features">
+                    <div class="icons features-icons">
+                        <i class="fa fa-ribbon"></i>
+                    </div>
+                    <div class="expert-card">
+                        <h2 class="icons-head">Domestic Level Program</h2>
+                        <p class="m-0">Students to show their creativity on a domestic level
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- --------------------- culture ---------------------  -->
+<section class="culture">
+    <div class="container-fluid">
+        <div class="row">
+
+            <div class="col-md-12 p-0">
+                <div class="card text-white culture-bg">
+                    <img src="{% static '/assets/images/culture.jpg' %}" alt="...">
+                    <div class="card-img-overlay culture-overlay">
+                        <div class="student-work culture-heading">
+                            <h5 class="m-0">About</h5>
+                            <h3>MATOSHRI INTERIOR CULTURE</h3>
+                            <div class="line fashion-line"></div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="mission-box">
+                                    <i class="fa-solid fa-rocket"></i>
+                                    <h3> Mission</h3>
+                                    <p>
+                                        To provide quality education to students from all sections of society in an
+                                        affordable way.</p>
+                                </div>
+                            </div>
+
+                            <div class="col-md-4">
+                                <div class="mission-box thumbs-card">
+                                    <i class="fa-solid fa-thumbs-up"></i>
+                                    <h3>Commitment</h3>
+                                    <p>We are committed to providing good-quality education as a foundation for dynamic
+                                        and equitable societies.</p>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="mission-box">
+                                    <i class="fa-solid fa-lightbulb"></i>
+                                    <h3> Innovation</h3>
+                                    <p>As a leader in design education, our job is not to control the creativity of
+                                        those we serve but to innovate their potential.</p>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- testimonial----------------------  -->
+
+<section>
+
+</section>
+
+{% endblock main-content %}
