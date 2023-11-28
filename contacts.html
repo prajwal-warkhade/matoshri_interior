@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <div class="contain">
+            <div class="logo">
+                <a href="Home.html"><img src="./images/sidlogo.png" alt=""
+                        style="vertical-align: middle;border-style: none; max-width: 120px; height: auto;"></a>
+            </div>
+            <div class="nav">
+
+                <a href="Home.html">Home</a>
+                <a href="about.html">About Us</a>
+                <a href="Gallery.html">Gallery</a>
+                <a href="contacts.html">Contact</a>
+
+
+            </div>
+        </div>
+    </header>
+    <section class="contact-us">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <!-- <h4 class="academy-title contact-title m-0">Fashion & Interior design</h4>
+                    
+
+                    <div class="line contact-line"></div>
+
+                    <div>
+                        <p class="contact-para">ISDT is one of the best fashion and interior design institutes in
+                            Ahmednagar. From a humble beginning at the turn of the century, Isdt has cantered a long
+                            way, making its presence felt across Central India, and will soon spread its wings to
+                            encompass the rest of the country while keeping a keen eye across the oceans too.</p>
+                    </div> -->
+
+                    <div>
+                        <address>
+                            <h3 class="contact-head contact-info">CONTACT INFO</h3>
+                            <!-- <span>Let’s get in touch to make it happen</span> -->
+                            <div class="border-line">
+                                <p class="contact-para address-info m-0">Matoshri Interior,Shree melawane complex, Taharabad Rd, Rahuri Factory, Rahuri, Maharashtra 413706</p>
+                            </div>
+                            <div class="border-line"><strong>Contact:</strong><span
+                                    class="new-span">+91-9970873040</span></div>
+                          
+                            <div class="border-line"><strong>Email:</strong><span class="new-span">matoshriinterior@gmail.com</span>
+                            </div>
+                            <!-- <div class="border-line"><strong>Web:</strong><a href="">http://isdt.com</a></div> -->
+                            <div class="border-line"><strong>Open:</strong><span class="new-span">Monday – Saturday
+                                    9:00 AM – 8:00 PM</span> </div>
+                        </address>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="form-data">
+
+                        <h4 class="contact-head contact-message">SEND US MESSAGE</h4>
+
+                        <form  action="{% url 'contact_us' %}" method="POST">
+
+                            <div class="contact-form">
+                                <div class="contect-inputs">
+                                    <input name="fname" type="text" class="form-control" placeholder="First Name">
+                                </div>
+                                <div class="contect-inputs">
+                                    <input name="lname" type="text" class="form-control" placeholder="Last Name">
+                                </div>
+                            </div>
+                            <div class="contact-form">
+                                <div class="contect-inputs">
+                                    <input name="email" type="email" class="form-control" placeholder="Email">
+                                </div>
+                                <div class="contect-inputs">
+                                    <input name="Phone" type="text" class="form-control" placeholder="Phone">
+                                </div>
+                            </div>
+                            <div>
+                                <textarea class="form-control text-area" name="Message" id="" cols="10" rows="6" placeholder="Your Message"></textarea>
+                            </div>
+
+                            <input type="submit" value="Submit Form" class="contact-button" aria-invalid="false">
+                        </form>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+ <!-- --------------------- footer ---------------------  -->
+ <section class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3">
+                <img src="/images/sidlogo.png" alt="" style="width: 150px; height: 150px;">
+                <!-- <p class="footer-contact footer-paragragh">Institute for studies in Design and Technology
+                established in 2004, been a pioneer in design field of education in Ahmednagar. The Institute
+                has a high standing results from Last 18 years for excellency in education in University.</p> -->
+            </div>
+
+            <div class="col-md-3">
+                <ul class="list-group footer-list">
+                    <h4 class="footer-list-head">Quick Links</h4>
+
+                    <li class="list-group-item"><a href="">Rules and Regulation</a></li>
+                    <li class="list-group-item"><a href="">About Us</a></li>
+                    <!-- <li class="list-group-item"><a href="">Courses</a></li> -->
+                    <li class="list-group-item"><a href="">Interior Designing</a></li>
+                    <!-- <li class="list-group-item"><a href="">Fashion Designing</a></li> -->
+                    <li class="list-group-item"><a href="">Gallery</a></li>
+                    <!-- <li class="list-group-item"><a href="">Online Admission</a></li> -->
+                    <li class="list-group-item"><a href="">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="col-md-3">
+                <h4 class="footer-list-head p-0 respofooter_head">Contact Us</h4>
+                <p class="footer-contact">Matoshri Interior,Shree melawane complex, Taharabad Rd, Rahuri Factory,
+                    Rahuri, Maharashtra 413706</p>
+                <div>
+                    <a href="" class="footer-contact footer-phone">
+                        <i class="fa-solid fa-phone"></i>
+                        <h5 class="footer-contact footer-left">+91-9970873040</h5>
+                    </a>
+                    <a href="" class="footer-contact footer-phone">
+                        <i class="fa-solid fa-envelope"></i>
+                        <h5 class="footer-contact footer-left">matoshriinterior@gmail.com
+                        </h5>
+                    </a>
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <h4 class="footer-list-head p-0 respofooter_head">Follow us on</h4>
+                <!-- <a href="" class="footer-contact footer-phone">
+                Institute For Studies in Design & Technology
+            </a> -->
+
+                <div class="footer-icon">
+                    <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+                    <!-- <a href="" target="_blank"><i class="fa-brands fa-youtube"></i></a> -->
+                    <a href="https://www.instagram.com/matoshriinterior/" target="_blank"><i
+                            class="fa-brands fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+<section class="footer-last">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+
+                <div class="footer-lower">
+                    <h6 class="footer-contact">© Copyright 2023 - Matoshri Interior
+                        <br> Developed by <a href=" " target="_blank">Prajwal Warkhade</a>
+                    </h6>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+<!-- --------------------- footer end---------------------  -->
+</body>
+</html>
