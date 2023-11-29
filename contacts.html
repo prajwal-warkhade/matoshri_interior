@@ -75,10 +75,30 @@
                 <div class="col-md-6">
                     <div class="form-data">
 
-                        <h4 class="contact-head contact-message">SEND US MESSAGE</h4>
+                        <h4 class="contact-head contact-message" style="font-size: 30px;">SEND US MESSAGE</h4>
 
-                        <form  action="{% url 'contact_us' %}" method="POST">
-
+                        <!-- <form class="form">
+                            <fieldset class="fieldset">
+                            <div class="form-group">
+                                <label for="exampleInputEmail1">First Name</label>
+                                <input type="First Name" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="First Name">
+                            </div>
+                             <div class="form-group">
+                                <label for="exampleInputEmail1">Last Name</label>
+                                <input type="First Name" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Last Name">
+                            </div>
+                            <div class="form-group">
+                              <label for="exampleInputEmail1">Email</label>
+                              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleFormControlTextarea1">Your Message</label>
+                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                              </div>
+                            <button type="submit" class="btn btn-primary">Submit</button>
+                        </fieldset> 
+                          </form> -->
+                          <form  action="" method="POST">
                             <div class="contact-form">
                                 <div class="contect-inputs">
                                     <input name="fname" type="text" class="form-control" placeholder="First Name">
@@ -96,10 +116,10 @@
                                 </div>
                             </div>
                             <div>
-                                <textarea class="form-control text-area" name="Message" id="" cols="10" rows="6" placeholder="Your Message"></textarea>
+                                <textarea class="contact-form text-area" name="Message" id="" cols="10" rows="6" placeholder="Your Message"></textarea>
                             </div>
 
-                            <input type="submit" value="Submit Form" class="contact-button" aria-invalid="false">
+                            <input type="submit"  value="Submit Form" class="contact-button" aria-invalid="false">
                         </form>
                     </div>
                 </div>
@@ -113,9 +133,6 @@
         <div class="row">
             <div class="col-md-3">
                 <img src="/images/sidlogo.png" alt="" style="width: 150px; height: 150px;">
-                <!-- <p class="footer-contact footer-paragragh">Institute for studies in Design and Technology
-                established in 2004, been a pioneer in design field of education in Ahmednagar. The Institute
-                has a high standing results from Last 18 years for excellency in education in University.</p> -->
             </div>
 
             <div class="col-md-3">
@@ -124,11 +141,8 @@
 
                     <li class="list-group-item"><a href="">Rules and Regulation</a></li>
                     <li class="list-group-item"><a href="">About Us</a></li>
-                    <!-- <li class="list-group-item"><a href="">Courses</a></li> -->
                     <li class="list-group-item"><a href="">Interior Designing</a></li>
-                    <!-- <li class="list-group-item"><a href="">Fashion Designing</a></li> -->
                     <li class="list-group-item"><a href="">Gallery</a></li>
-                    <!-- <li class="list-group-item"><a href="">Online Admission</a></li> -->
                     <li class="list-group-item"><a href="">Contact</a></li>
                 </ul>
             </div>
@@ -152,15 +166,14 @@
 
             <div class="col-md-3">
                 <h4 class="footer-list-head p-0 respofooter_head">Follow us on</h4>
-                <!-- <a href="" class="footer-contact footer-phone">
-                Institute For Studies in Design & Technology
-            </a> -->
+               
 
                 <div class="footer-icon">
                     <a href=""><i class="fa-brands fa-facebook-f"></i></a>
                     <!-- <a href="" target="_blank"><i class="fa-brands fa-youtube"></i></a> -->
                     <a href="https://www.instagram.com/matoshriinterior/" target="_blank"><i
                             class="fa-brands fa-instagram"></i></a>
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3762.157060756889!2d74.59493587621886!3d19.448794034994304!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bdc93dfefa2587d%3A0xffbc4e36a4024848!2sMatoshri%20interior%20and%20swpnagandha%20construction!5e0!3m2!1sen!2sin!4v1697214465410!5m2!1sen!2sin" width="120%" height="270" style="border:100 px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> 
                 </div>
             </div>
         </div>
