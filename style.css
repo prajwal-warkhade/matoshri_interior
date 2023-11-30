@@ -263,19 +263,11 @@ img
 
 
  .footer {
-<<<<<<< HEAD
     background-color: burlywood;
     padding: 10px 0;
     border-bottom: 4px solid rgb(229, 231, 235);
-
-=======
-    background-color: rgb(221, 218, 217);
-    padding: 0px 0px;
-    border-bottom: 5px solid rgb(220, 191, 153);
-    height: 450px; 
-    width: 100%;
->>>>>>> d84f6d26ab5903fdc3da3411258d4c67355b79f0
-}
+ }
+ 
 
 .footer h4 {
     color: rgb(253, 253, 253);
