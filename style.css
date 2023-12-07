@@ -8,8 +8,19 @@
     align-items: center;
     margin-top: 1.3%;   
 
-   
+}
 
+@media (max-width: 1240px) 
+{
+    .nav{
+        margin-left: 40%;
+    }
+}
+@media (min-width: 1240px) 
+{
+    .nav{
+        margin-left: 50%;
+    }
 }
 .nav a{
     margin-right: 25px;
@@ -87,6 +98,10 @@ img
     padding-bottom: 200px;
     text-align: center;
     
+}
+.carousel-inner{
+    display: flex;
+      transition: transform 0.4s ease;
 }
 
   /* ---------------------about us section home page -------------  */
@@ -357,10 +372,14 @@ img
 
 .institute-image img {
     width: 461px;
+    height: 600px;
+    
+
 }
 
 .institution-information {
     padding: 90px;
+    padding-top: 6px
 }
 
 .institution-information h3 {
@@ -651,6 +670,7 @@ img
 }  
 .row{
     padding: 40px;
+        margin-top: 8px;
 }
 
 .creative-heading h5,
@@ -922,88 +942,20 @@ strong {
     border: 0px;
 }  
 /* ---------------- gallery page -------------------  */
-/* button {
-    display: inline-block;
-    padding: 10px 20px;
-    margin: 0px 5px;
-    background-color: #fff;
-    color:#9c9c9c;
-    font-size: 12px;
-    font-weight: 800;
-    letter-spacing: 0.5px;
-    text-transform: uppercase;
-    transition: all 0.5s;
-    border: none;
-    outline: none;
-    cursor: pointer;
-    border-radius: 5px;
-} 
-
- button:hover {
-    outline: none;
-    background-color:#9c9c9c;
-    color: #fff;
-  } 
- button.active {
-    outline: none;
-    background-color:#9c9c9c;
-    color: #fff;
-} 
-
-
-/* FILTER NAV */
-/* .iso-nav {
-    text-align: center;
-    margin:60px 0 45px 0;
-}
-
-.iso-nav ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-}
-
-.iso-nav ul li {
-    display: inline-block;
-    padding: 4px 15px;
-    border: none;
-    color: #333;
-    font-family: Gotham-regular;
-    font-size: 14px;
-    font-weight: 500;
-    box-sizing: border-box;
-    text-transform: uppercase;
-    cursor: pointer;
-}
-
-
-.iso-nav ul li:hover {
-    background-color: #181a85;
-    color: #fff;
-}
-
-.iso-nav ul li.active {
-    background-color: #181a85;
-    color: #fff;
-}
-
-
-.video-thumbnails img {
-    margin-bottom: 40px;
-    object-fit: cover;
-}  */ 
 .container{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    padding: 20px;
 
 
 }
 .images{
-    height: 50px;
-    width: 50px;
+    height: 300px;
+    width: 300px;
+    padding: 20px;
 }
-.container .images{
+/* .container .images{
     height: 15rem;
     width: 25rem;
     margin: 2rem;
@@ -1011,7 +963,7 @@ strong {
     overflow: hidden;
     border-radius: 1rem;
 
-}
+} */
 .container .images img{
     height: 100%;
     width: 100%;
@@ -1021,8 +973,8 @@ strong {
     cursor: pointer;
 }
 .container .images img:hover{
-    transition: .2s linear;
-    transform: scale(1.3);
+    transition: .1s linear;
+    transform: scale(1.1);
 }
 .container .images img .Active{
     position: fixed;
