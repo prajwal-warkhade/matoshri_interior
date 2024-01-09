@@ -679,6 +679,10 @@ img
 .feature-box p {
     color: white;
 }
+.logo{
+    height: 50px;
+    width: 50px;
+}
 
 /* ------------------- contact us form ------------------- */
 
@@ -947,8 +951,6 @@ strong {
     justify-content: center;
     flex-wrap: wrap;
     padding: 20px;
-
-
 }
 .images{
     height: 300px;
